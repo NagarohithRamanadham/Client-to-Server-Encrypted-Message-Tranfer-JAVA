@@ -1,4 +1,4 @@
-//This programs starts the Server
+//This programs starts the Client
 //To send Data to Server
 import java.io.DataOutputStream;
 
