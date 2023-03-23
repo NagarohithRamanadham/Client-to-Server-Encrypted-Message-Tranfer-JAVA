@@ -131,7 +131,7 @@ public class ClientMachine {
     
 }
     
-	//DES algorithm used to encrypt the message
+	//AES algorithm used to encrypt the message
     static byte[] encrypt(byte[] plainTextByte, SecretKey secretKey)throws Exception {
 
 		Cipher encrypt=Cipher.getInstance("AES");//cipher that uses Data Encryption Standards algorithm which conists of 168 bit size secret key
